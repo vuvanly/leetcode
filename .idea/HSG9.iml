@@ -6,10 +6,12 @@
       <sourceFolder url="file://$MODULE_DIR$/b58_length_last_word/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/b14_longest_common_prefix/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/b151_reverse_words_in_string/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/b6_zigzag_conversion/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/b13_romain_to_integer/target" />
       <excludeFolder url="file://$MODULE_DIR$/b58_length_last_word/target" />
       <excludeFolder url="file://$MODULE_DIR$/b14_longest_common_prefix/target" />
       <excludeFolder url="file://$MODULE_DIR$/b151_reverse_words_in_string/target" />
+      <excludeFolder url="file://$MODULE_DIR$/b6_zigzag_conversion/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
