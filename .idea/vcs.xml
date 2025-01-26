@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b121_besttime_buysell_stock" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b12_int_to_roman" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b134_gas_station" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b135_candy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b13_romain_to_integer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b14_longest_common_prefix" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b151_reverse_words_in_string" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b169_majority_element" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b189_rotate_array" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b238_product_except_itself" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b26_remove_duplicate_array" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b274_h_index" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b27_remove_element" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b380_insert_delete_getrandom" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b42_trapping_rain_water" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b45_jump_game_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b55_jump_game" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b58_length_last_word" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b80_remove_duplicate_array_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/b88_merge_sorted_array" vcs="Git" />
+  </component>
+</project>

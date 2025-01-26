@@ -1,0 +1,6 @@
+[package]
+name = "b169_majority_element"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
