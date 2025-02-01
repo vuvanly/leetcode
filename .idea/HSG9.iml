@@ -9,6 +9,9 @@
       <sourceFolder url="file://$MODULE_DIR$/b28_find_index_first_occurrence/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/b68_text_justification/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/b6_zigzag_conversion/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/b125_valid_palindrome/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/b167_two_sum_2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/b392_is_subsequence/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/b13_romain_to_integer/target" />
       <excludeFolder url="file://$MODULE_DIR$/b58_length_last_word/target" />
       <excludeFolder url="file://$MODULE_DIR$/b14_longest_common_prefix/target" />
@@ -16,6 +19,9 @@
       <excludeFolder url="file://$MODULE_DIR$/b28_find_index_first_occurrence/target" />
       <excludeFolder url="file://$MODULE_DIR$/b68_text_justification/target" />
       <excludeFolder url="file://$MODULE_DIR$/b6_zigzag_conversion/target" />
+      <excludeFolder url="file://$MODULE_DIR$/b125_valid_palindrome/target" />
+      <excludeFolder url="file://$MODULE_DIR$/b167_two_sum_2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/b392_is_subsequence/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
