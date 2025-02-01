@@ -14,38 +14,29 @@ impl Solution {
         let mut row_string;
         while current_index < length {
             let word: &String = &words[current_index];
-            println!("CurrentIndex: {current_index}, word: {:?}", word);
             if current_row_words_length + current_row_vec.len() + word.len() <= max_width {
-                println!("same row");
                 // still same row
                 current_row_vec.push(word.clone());
                 current_row_words_length += word.len();
             } else {
                 // go to next row
-                println!("next row, current_row_vec: {:?}", current_row_vec);
                 // add to justify
                 row_string = String::new();
+                let space_needed = max_width - current_row_words_length;
                 if current_row_vec.len() == 1 {
                     // only 1 words
                     row_string.push_str(&*current_row_vec[0]);
-                    for _j in 0..(max_width - current_row_words_length) {
-                        row_string.push(' ');
-                    }
+                    row_string.push_str(&" ".repeat(space_needed));
                 } else {
                     // at least 2 words
-                    let min_spaces = (max_width - current_row_words_length) / (current_row_vec.len() - 1);
-                    let k = (max_width - current_row_words_length) % (current_row_vec.len() - 1); // first k words has min_spaces + 1 space, the rest min_spaces space
+                    let min_spaces = space_needed / (current_row_vec.len() - 1);
+                    let space_extras = space_needed % (current_row_vec.len() - 1); // first space_extras words has min_spaces + 1 space, the rest min_spaces space
                     for i in 0..current_row_vec.len() {
                         row_string.push_str(&*current_row_vec[i]);
-                        // println!("row_string: {:?}, current_word: {:?}", row_string, &*current_row_vec[0]);
-                        if i < k {
-                            for _j in 0..(min_spaces + 1) {
-                                row_string.push(' ');
-                            }
+                        if i < space_extras {
+                            row_string.push_str(&" ".repeat(min_spaces + 1));
                         } else if i < current_row_vec.len() - 1 {
-                            for _j in 0..min_spaces {
-                                row_string.push(' ');
-                            }
+                            row_string.push_str(&" ".repeat(min_spaces));
                         }
                     }
                 }
@@ -57,7 +48,6 @@ impl Solution {
             }
 
             if current_index == length - 1 {
-                println!("last index");
                 row_string = String::new();
                 // last index
                 for i in 0..(current_row_vec.len()) {
@@ -66,10 +56,7 @@ impl Solution {
                         row_string.push(' ');
                     }
                 }
-                println!("current_row_words_length: {current_row_words_length}, len: {}", current_row_vec.len());
-                for _j in 0..(max_width + 1 - current_row_words_length - current_row_vec.len()) {
-                    row_string.push(' '); // add space at the end
-                }
+                row_string.push_str(&" ".repeat(max_width + 1 - current_row_words_length - current_row_vec.len()));
                 justify_vec.push(row_string);
             }
 
